@@ -144,7 +144,7 @@ nav .fa{
         height: 100vh;
         width: 200px;
         top: 0;
-     right: 16px;
+     right: -18px;
         display: none;
         text-align: left;
         z-index: 2;
