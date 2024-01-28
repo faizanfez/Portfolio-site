@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Eduford</title>
+    <link rel="icon" href="red.png">
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="1.html"><img src="logo.png"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">COURSE</a></li>
+                    <li><a href="#">BLOG</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>World's Biggest University</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti tempore opti
+                Lorem ipsum dolor <br>sit amet, consectetur adipisicing elit. </p>
+            <a href="">Visit Us To Know More</a>
+        </div>
+    </section>
+    <section class="course">
+        <h1>Our Courses We Offer</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, eos.</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat sunt consequuntur possimus
+                    dignissimos veritatis sed vel! Optio voluptas repellendus dolor?</p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat sunt consequuntur possimus
+                    dignissimos veritatis sed vel! Optio voluptas repellendus dolor?</p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat sunt consequuntur possimus
+                    dignissimos veritatis sed vel! Optio voluptas repellendus dolor?</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CAMPUS -->
+    <section class="campus">
+        <h1>Our Globle Campus</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda a porro voluptatem incidunt
+            necessitatibus atque!</p>
+        <div class="row">
+            <div class="campus-col">
+                <img src="london.png">
+                <div class="layer">
+                    <h3>LONDON</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="newyork.png">
+                <div class="layer">
+                    <h3>NEW YORK</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="washington.png">
+                <div class="layer">
+                    <h3>WASHINGTON</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FACILITIES -->
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum ipsa consectetur corporis esse sed.
+            Quibusdam?</p>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="library.png">
+                <h3>World Class Library</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore iusto, praesentium unde eaque nihil aspernatur!</p>
+            </div>
+            <div class="facilities-col">
+                <img src="basketball.png">
+                <h3>Largest Play Ground</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore iusto, praesentium unde eaque nihil aspernatur!</p>
+            </div>
+            <div class="facilities-col">
+                <img src="cafeteria.png">
+                <h3>Tasty and Healthy Food</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore iusto, praesentium unde eaque nihil aspernatur!</p>
+            </div>
+        </div>
+    </section>
+<!-- testimonials -->
+<section class="testimonials">
+    <h1>What Our Student Says</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam aperiam inventore autem, expedita corrupti aspernatur!</p>
+
+    <div class="row">
+        <div class="testimonial-col">
+            <img src="user1.jpg">
+            <div>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod, sed totam! Architecto impedit provident rerum.</p>
+                <h3>Christine Berkley </h3>
+            </div>
+        </div>
+        <div class="testimonial-col">
+            <img src="user2.jpg">
+            <div>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod, sed totam! Architecto impedit provident rerum.</p>
+                <h3>David Berk </h3>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!-- CALL TO ACTION -->
+<section class="cta">
+    <h1>Encroll For Our Various Online Courses <br> Anywhere From The World</h1>
+    <a href="https://www.instagram.com/fez_editz/"target="_black">Contact Us </a>
+</section>
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit ab itaque eligendi<br> voluptate vitae rem?</p>
+</section>
+<!-- login/signup button -->
+<div class="signup">
+<button>
+   <a href="login.html"target="_blank">
+       Login/Signup
+
+   </a> 
+</button>
+
+</div>
+<script>
+    var navlinks=document.getElementById("navlinks");
+    function showmenu(){
+navlinks.style.right="0";
+    }
+    function hidemenu(){
+navlinks.style.right="-200px";
+    }
+</script>
+</body>
+</html>
